@@ -14,7 +14,6 @@
 
 body{
   background-color: whitesmoke;
-
 }
 
 nav{
@@ -35,7 +34,6 @@ h2{
 nav ul {
   display: flex;
   list-style-type:none;
-
 }
 
 li{
@@ -59,7 +57,6 @@ button{
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
-
 }
 
 .signin{
@@ -78,6 +75,7 @@ button{
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
+  margin-left: 30px;
 }
 
 .three{
@@ -87,23 +85,18 @@ button{
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-
+  margin-left: 30px;
 }
 
 .box{
   width: 750px;
-  height: 550px;
+  height: 300px;
   margin-left: 600px;
-  border-radius: 200px;
+  border-radius: 150px;
   display: flex;
- 
 }
 
-
-
-
-
-
-
-
+img{
+  margin-bottom: 200px;
+}
 
