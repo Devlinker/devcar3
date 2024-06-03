@@ -94,9 +94,11 @@ button{
   height: 300px;
   margin-left: 600px;
   border-radius: 150px;
+  box-shadow: 2px 2px 20px yellow;
 }
 
 img{
   margin-bottom: 200px;
-  cursor: not-allowed;
+  cursor: default;
+  filter: drop-shadow(1px 1px 100px white);
 }
