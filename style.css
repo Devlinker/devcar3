@@ -92,11 +92,15 @@ button{
 
 .box{
   width: 750px;
-  height: 550px;
+  height: 800px;
   margin-left: 600px;
   border-radius: 200px;
   display: flex;
- 
+  float: right;
+}
+
+img{
+  margin-bottom: 400px;
 }
 
 
