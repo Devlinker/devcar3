@@ -96,11 +96,16 @@ button{
 
 .box{
   width: 750px;
-  height: 550px;
+  height: 300px;
   margin-left: 600px;
   border-radius: 200px;
   display: flex;
  
+}
+
+img{
+  margin-bottom: 200px;
+  filter: drop-shadow(1px 1px 20px white);
 }
 
 
