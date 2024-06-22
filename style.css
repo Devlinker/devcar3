@@ -24,35 +24,12 @@ body{
   align-items: center;
 }
 
-h2{
+.seven{
   padding: 0 40px;
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
   cursor: default;
-}
-.input {
-  background-color: #254336;
-  width: 280px;
-  height: 40px;
-  padding: 10px;
-  /* text-align: center; */
-  border: 2px solid whitesmoke;
-  border-radius: 15px;
-  box-shadow: 3px 3px 2px #6B8A7A;
-}
-
-.input:focus {
-  color: whitesmoke;
-  background-color: #254336;
-  outline-color: #6B8A7A;
-  box-shadow: -3px -3px 15px #6B8A7A;
-  transition: .1s;
-  transition-property: box-shadow;
-}
-
-.five{
-  margin-right: 50px;
 }
 
 nav ul {
@@ -70,6 +47,30 @@ a{
   cursor: not-allowed;
 }
 
+.two{
+  margin-right: 18px;
+}
+
+.input {
+  background-color: #254336;
+  width: 280px;
+  height: 40px;
+  padding: 10px;
+  /* text-align: center; */
+  border: 2px solid whitesmoke;
+  border-radius: 12px;
+  box-shadow: 3px 3px 2px #6B8A7A;
+}
+
+.input:focus {
+  color: whitesmoke;
+  background-color: #254336;
+  outline-color: #6B8A7A;
+  box-shadow: -3px -3px 15px #6B8A7A;
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
 button{
   padding: 7px 10px;
   border-radius: 10px;
@@ -78,49 +79,71 @@ button{
   color: white;
   font-weight: 600;
   margin: 10px 18px;
-  cursor: pointe;
   font-family: "Poetsen One", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
-
-.signin{
+.signup{
   background-color: #6B8A7A;
   cursor: wait;
   margin-right: 40px;
+  width: 90px;
+}
+
+.signup:hover{
+  background-color: white;
+  color: black
+}
+
+.four{
+  margin-left: 460px;
+  color: #607274;
+  margin-top: 35px;
+  font-family: "Viga", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  cursor: default;
+  /*background: linear-gradient(74deg,rgb(66, 133, 244),
+  rgb(155, 114, 203), rgb(217, 101, 112));
+  color: transparent;
+  background-clip: text;*/
+}
+
+.signin{
+  background-color: #9A4444;
+  cursor: wait;
+  cursor: pointer;
+  margin-left: 650px;
+  width: 150px;
+  height: 35px;
 }
 
 .signin:hover{
   background-color: black;
 }
 
-/*.signup{
-  background-color: skyblue;
-  cursor: wait;
-}*/
-
-.two{
-  
-  color: black;
-  margin-top: 150px;
-  font-family: "Viga", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 40px;
-  margin-left: 30px;
-  cursor: default;
+img{
+  margin-top: 35px;
 }
 
-.three{
-
-  color: black;
-  font-family: "Shippori Mincho", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  margin-left: 30px;
-  cursor: default;
+.eight{
+  font-size: 35px;
+  margin-top: 40px;
+  color: #373A40;
 }
+
+.eleven{
+  margin-left: 30px;
+}
+
+.twelve{
+  height: 3px;
+  background-color: #686D76;
+  margin-top: 30px;
+}
+
+
 
 /*.box{
   background-color: #6B8A7A;
