@@ -12,6 +12,21 @@
   box-sizing: border-box;
 }
 
+.acer{
+  margin-right: 500px;
+  display: flex;
+  position: absolute;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+/*p{
+    text-decoration: none;
+    color: red;
+    }*/
+
 body{
   background-color: white;
 }
@@ -44,7 +59,7 @@ li{
 a{
   text-decoration: none;
   color: white;
-  cursor: not-allowed;
+  cursor:pointer;
 }
 
 .two{
