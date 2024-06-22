@@ -13,12 +13,12 @@
 }
 
 body{
-  background-color: #F6B17A;
+  background-color: #B7B597;
 }
 
 .one{
   display: flex;
-  background-color: #627254;
+  background-color: #254336;
   color: white;
   justify-content: space-between;
   align-items: center;
@@ -30,6 +30,29 @@ h2{
   font-weight: 400;
   font-style: normal;
   cursor: default;
+}
+.input {
+  background-color: #254336;
+  width: 280px;
+  height: 40px;
+  padding: 10px;
+  /* text-align: center; */
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  box-shadow: 3px 3px 2px #6B8A7A;
+}
+
+.input:focus {
+  color: whitesmoke;
+  background-color: #254336;
+  outline-color: #6B8A7A;
+  box-shadow: -3px -3px 15px #6B8A7A;
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
+.five{
+  margin-right: 50px;
 }
 
 nav ul {
@@ -62,14 +85,19 @@ button{
 }
 
 .signin{
-  background-color: green;
+  background-color: #6B8A7A;
   cursor: wait;
+  margin-right: 40px;
 }
 
-.signup{
+.signin:hover{
+  background-color: black;
+}
+
+/*.signup{
   background-color: skyblue;
   cursor: wait;
-}
+}*/
 
 .two{
   
@@ -94,18 +122,26 @@ button{
   cursor: default;
 }
 
-.box{
+/*.box{
+  background-color: #6B8A7A;
   width: 750px;
   height: 300px;
   margin-left: 600px;
   border-radius: 200px;
+  display: flex;
  
 }
 
 img{
-  margin-bottom: 200px;
+  margin-bottom: 500px;
   filter: drop-shadow(1px 1px 20px white);
-}
+  height: 700px;
+  width: 850px;
+}*/
+
+
+
+  
 
 
 
