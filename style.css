@@ -12,14 +12,6 @@
   box-sizing: border-box;
 }
 
-
-
-
-/*p{
-    text-decoration: none;
-    color: red;
-    }*/
-
 body{
   background-color: white;
 }
@@ -100,7 +92,7 @@ button{
 
 .signup:hover{
   background-color: white;
-  color: black
+  color: black;
 }
 
 .four{
@@ -128,7 +120,7 @@ button{
 }
 
 .signin:hover{
-  background-color: black;
+  background-color: #222831;
 }
 
 img{
