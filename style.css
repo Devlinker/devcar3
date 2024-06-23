@@ -12,15 +12,8 @@
   box-sizing: border-box;
 }
 
-.acer{
-  margin-right: 500px;
-  display: flex;
-  position: absolute;
-}
-a{
-  text-decoration: none;
-  color: gray;
-}
+
+
 
 /*p{
     text-decoration: none;

@@ -10,6 +10,17 @@ body{
   background-color: #DBB5B5;
 }
 
+.acer{
+  margin-top: 15px;
+  color: black;
+  display: flex;
+  position: absolute;
+}
+/*a{
+  text-decoration: none;
+  color: gray;
+}*/
+
 
 .form-container {
     width: 350px;
