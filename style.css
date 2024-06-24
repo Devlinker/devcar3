@@ -13,7 +13,7 @@
 }
 
 .acer{
-  margin-right: 50px;
+  margin-right: 500px;
   display: flex;
   position: absolute;
 }
@@ -107,7 +107,7 @@ button{
 
 .signup:hover{
   background-color: white;
-  color: black
+  color: black;
 }
 
 .four{
@@ -135,7 +135,7 @@ button{
 }
 
 .signin:hover{
-  background-color: black;
+  background-color: #222831;
 }
 
 img{
